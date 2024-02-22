@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-whitespace/tags). For example,
+
+```javascript
 import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@v0.2.1-esm/index.mjs';
 ```
 
@@ -81,7 +86,7 @@ var bool = isWhitespace( '             ' );
 <body>
 <script type="module">
 
-import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@v0.2.1-esm/index.mjs';
+import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@esm/index.mjs';
 
 var out = isWhitespace( '              ' );
 // returns true
