@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@deno/mod.js';
+import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@v0.2.1-deno/mod.js';
 ```
 
 #### isWhitespace( value )
@@ -76,7 +76,7 @@ var bool = isWhitespace( '             ' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@deno/mod.js';
+import isWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-whitespace@v0.2.1-deno/mod.js';
 
 var out = isWhitespace( '              ' );
 // returns true
